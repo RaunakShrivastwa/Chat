@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Chatting</title>
+        <link rel="stylesheet" href="/style.css">
+
+    </head>
+    <body>
+
+        <section class="chat_section">
+
+            <div class="brand">
+
+                <img height="40px" src="/whatsapp.png" alt="" srcset="">
+                <h1 id="text">QuickChat</h1>
+                <img id="out" style="margin-left: 100px;cursor: pointer;" height="40px" src="https://cdn-icons-png.flaticon.com/512/4400/4400483.png"" alt="" srcset="">
+
+               
+
+            </div>
+
+            <div class="message_area">
+
+            </div>
+
+            <div style="background-color: #202C33">
+
+
+                <textarea id="textarea" cols="30" rows="1" placeholder="Type Message Here:-
+                    "></textarea>
+
+                <img onclick="img()" id="sendimage"
+                    src="https://cdn-icons-png.flaticon.com/512/1309/1309305.png"
+                    alt="">
+
+
+                <!-- <img  id="file" style="width:70px;cursor: pointer;margin-left: 10px;" src="https://cdn-icons-png.flaticon.com/512/7224/7224509.png" alt=""> -->
+            </div>
+
+
+        </section>
+
+
+
+        <script src="/socket.io/socket.io.js"></script>
+        <script src="/client.js"></script>
+
+    </body>
+</html>
